@@ -1,0 +1,222 @@
+ //to reset element-ui default css
+ // .el-upload {
+ //   input[type="file"] {
+ //     display: none !important;
+ //   }
+ // }
+
+ // .el-upload__input {
+ //   display: none;
+ // }
+
+ // //暂时性解决diolag 问题 https://github.com/ElemeFE/element/issues/2461
+ // .el-dialog {
+ //   transform: none;
+ //   left: 0;
+ //   position: relative;
+ //   margin: 0 auto;
+ // }
+
+ // //element ui upload
+ // .upload-container {
+ //   .el-upload {
+ //     width: 100%;
+ //     .el-upload-dragger {
+ //       width: 100%;
+ //       height: 200px;
+ //     }
+ //   }
+ // }
+
+ // /** checkbox 更改 */
+ // .el-checkbox__label {
+ //   font-size: 13px;
+ //   color: #333333;
+ // }
+
+ // .el-checkbox__input.is-checked+.el-checkbox__label {
+ //   color: #333333;
+ // }
+
+ .el-input .el-input__inner {
+   padding: 0 8px;
+ }
+
+ .el-textarea .el-textarea__inner {
+   padding: 5px 8px;
+ }
+
+ .el-radio .el-radio__label {
+   padding-left: 8px;
+ }
+ .main-table-header{
+  height: 54px !important
+ }
+ .main-table-header .el-input .el-input__inner{
+  height: 34px;
+  line-height: 34px;
+ }
+ .el-input .el-input__inner{
+  height: 34px !important;
+  line-height: 34px !important;
+ }
+ .el-checkbox .el-checkbox__label {
+   padding-left: 8px;
+ }
+.xr-header__ft .el-button{
+  padding: 8px 12px;
+}
+.el-button{
+  padding: 8px 12px !important;
+  height: 30px !important;
+}
+ // 参考 https://blog.csdn.net/HZKang/article/details/90447373
+// body .el-table th.gutter {
+//   display: table-cell !important;
+// }
+
+// body .el-table colgroup.gutter {
+//   display: table-cell !important;
+// }
+
+table {
+  width: 100% !important;
+}
+
+ // 弹窗样式
+ .el-dialog__footer {
+   padding: 10px 0px 20px 0px !important;
+   background-color: #fff;
+   border-top: 0px;
+   text-align: center !important;
+   position: sticky;
+    bottom: 0px;
+    z-index: 999;
+ }
+
+ .el-dialog__close {
+   font-weight: 600 !important;
+   font-size: 18px !important;
+ }
+
+ .el-dialog__title {
+  font-size: 16px !important;
+  color: #333 !important;
+  font-weight: 600!important;
+ }
+ .el-dialog__header{
+  // border-bottom: 1px solid #e6e6e6 !important;
+  position: sticky;
+  top: 0px;
+  background: #fff;
+  z-index: 999;
+ }
+ // 消息框
+ .el-message-box__title {
+   font-weight: 600 !important;
+ }
+
+ .el-message-box__close {
+   font-weight: 600 !important;
+   font-size: 18px !important;
+ }
+
+ .el-message-box {
+   padding: 0 !important;
+ }
+
+ .el-message-box__btns {
+   padding: 8px 15px !important;
+   background-color: #F7F8FA;
+   border-top: 1px solid $xr-border-line-color;
+ }
+
+ .el-message-box__content {
+   padding-bottom: 20px !important;
+ }
+
+ .el-checkbox .el-checkbox__label,
+ .el-checkbox__input.is-checked + .el-checkbox__label,
+ .el-radio__input.is-checked + .el-radio__label,
+ .el-radio .el-radio__label {
+  color: #333 !important;
+ }
+ .el-upload-list__item {
+  transition: none !important;
+}
+
+.el-submenu-more {
+  .el-menu {
+    padding: 15px 0;
+  }
+  .el-menu-item + .el-menu-item {
+    margin-top: 10px;
+  }
+}
+.dialog-footer {
+  text-align: center;
+}
+.el-button--primary{
+  border: 0px !important;
+}
+.el-table th > .cell,.el-table td > .cell{
+  font-size: 14px !important;
+  // font-weight:100 !important;
+}
+.el-upload--picture-card,.el-upload-list--picture-card .el-upload-list__item{
+  width:120px !important;
+  height: 120px !important;
+}
+.el-main{
+  padding: 0px 0px 10px 0px!important;
+  padding-bottom: 10px !important;
+
+}
+ .el-dialog__body{
+  min-height: 300px;
+  padding: 15px 20px !important;
+}
+.el-date-editor .el-range-separator{
+  width: 7% !important;
+  line-height: 28px !important;
+}
+.el-dialog{
+  max-height: calc(100% - 25vh) !important;
+    overflow: auto !important;
+    
+}
+.el-input__inner{
+  height: 34px !important;
+    line-height: 34px !important;
+}
+.el-input__icon{
+  line-height: 28px !important;
+}
+.el-menu--horizontal>.el-menu-item{
+  color: #2a304d;
+}
+.el-pagination .el-select .el-input .el-input__inner{
+  height: 28px !important;
+}
+.el-pagination__editor.el-input .el-input__inner{
+  height: 28px !important;
+}
+.el-button{
+  .iconfont,.wk {
+    font-size: 12px;
+  }
+ i{
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+ }
+}
+.el-tabs__nav-wrap::after{
+  height: 1px !important;
+}
